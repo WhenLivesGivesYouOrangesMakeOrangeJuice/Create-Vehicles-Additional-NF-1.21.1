@@ -1,5 +1,6 @@
 package de.srr.createvehiclesadditional.Items;
 
+import com.simibubi.create.AllCreativeModeTabs;
 import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -44,6 +45,13 @@ public class ModItems{
             "carbon_fiber_mass",
             Item::new,
             new Item.Properties()
+    );
+
+    public static final DeferredItem<Item> CREATE_TEST_ITEM = ITEMS.registerItem(
+            "create_test_item",
+            Item::new,
+            new Item.Properties()
+
     );
 
 

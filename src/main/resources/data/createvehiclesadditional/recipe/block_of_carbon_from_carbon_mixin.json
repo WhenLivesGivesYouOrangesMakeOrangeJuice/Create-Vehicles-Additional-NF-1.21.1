@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "none",
+  "ingredients": [
+    { "id": "createvehiclesadditional:carbon" },
+    { "id": "createvehiclesadditional:carbon" },
+    { "id": "createvehiclesadditional:carbon" },
+    { "id": "createvehiclesadditional:carbon" },
+    { "id": "createvehiclesadditional:carbon" },
+    { "id": "createvehiclesadditional:carbon" },
+    { "id": "createvehiclesadditional:carbon" },
+    { "id": "createvehiclesadditional:carbon" },
+    { "id": "createvehiclesadditional:carbon" }
+  ],
+  "results": [
+    { "id": "createvehiclesadditional:block_of_carbon", "count": 1 }
+  ]
+}
